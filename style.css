@@ -1,0 +1,88 @@
+/* --- Global Styles & Typography --- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa; /* Very Light Gray */
+}
+
+/* --- Header and Navigation --- */
+.navbar-custom {
+    background-color: #343a40; /* Dark Teal Blue */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.navbar-custom .navbar-brand {
+    color: #f9a825; /* Primary Accent */
+    font-weight: 700;
+}
+.navbar-custom .nav-link {
+    color: #cce0e6;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+.navbar-custom .nav-link.active,
+.navbar-custom .nav-link:hover {
+    color: #ffffff;
+    border-bottom: 3px solid #f9a825;
+}
+
+/* --- Summary Cards --- */
+.summary-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.summary-card:hover {
+    transform: translateY(-5px);
+}
+
+.current-balance-card { border-left: 8px solid #198754; /* Green */ }
+.total-income-card { border-left: 8px solid #0dcaf0; /* Cyan */ }
+.total-expenses-card { border-left: 8px solid #dc3545; /* Red */ }
+
+.card-title {
+    font-weight: 400;
+    color: #6c757d;
+}
+
+/* --- Card General Style (attractive look for forms/charts/history) --- */
+.card-attractive {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e9ecef;
+}
+
+.card-header-custom {
+    background-color: #f9a825; /* Accent color */
+    color: #343a40;
+    font-weight: 600;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 1rem 1.25rem;
+}
+
+/* --- Transaction History Specifics --- */
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    border-color: #f1f1f1 !important;
+}
+
+.income-amount { 
+    color: #198754; 
+    font-weight: 600; 
+}
+.expense-amount { 
+    color: #dc3545; 
+    font-weight: 600; 
+}
+/* Balance text colors */
+.text-success-balance {
+    color: #198754 !important;
+}
+.text-danger-balance {
+    color: #dc3545 !important;
+}

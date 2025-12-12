@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Budget Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark mb-4 navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">📈 Advanced Budget Tracker</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="transactions.html">Transactions & History</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
+            <h2 class="mb-3 mb-md-0">Financial Overview</h2>
+            <div class="d-flex gap-3">
+                <div class="input-group" style="width: 250px;">
+                    <span class="input-group-text">Period:</span>
+                    <select class="form-select" id="month-selector">
+                        </select>
+                </div>
+                <div class="input-group" style="width: 200px;">
+                    <span class="input-group-text">Currency:</span>
+                    <select class="form-select" id="currency-selector">
+                        <option value="USD" selected>USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="JPY">JPY</option>
+                        <option value="CAD">CAD</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-4 mb-3">
+                <div class="card text-center summary-card current-balance-card p-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Current Balance (Filtered)</h5>
+                        <p class="card-text fs-1 fw-bold" id="current-balance">$50,000.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card text-center summary-card total-income-card p-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Total Income (Filtered)</h5>
+                        <p class="card-text fs-2 fw-bold" id="total-income">$0.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card text-center summary-card total-expenses-card p-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Total Expenses (Filtered)</h5>
+                        <p class="card-text fs-2 fw-bold" id="total-expenses">$0.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 mb-4">
+                <div class="card card-attractive h-100">
+                    <div class="card-header card-header-custom">
+                        📊 Financial Trends & Breakdown
+                    </div>
+                    <div class="card-body p-4 row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <h6 class="text-center text-muted mb-3">Category Breakdown (Selected Period)</h6>
+                            <canvas id="category-pie-chart"></canvas>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-center text-muted mb-3">Spending Trend (Last 6 Months)</h6>
+                            <canvas id="monthly-line-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 mb-4">
+                <div class="card card-attractive h-100">
+                    <div class="card-header card-header-custom">
+                        🎯 Monthly Budget Goals
+                    </div>
+                    <div class="card-body">
+                        <form id="goal-form" class="mb-4">
+                            <div class="mb-2">
+                                <label for="goal-category" class="form-label">Category</label>
+                                <select class="form-select form-select-sm" id="goal-category" required></select>
+                            </div>
+                            <div class="mb-2">
+                                <label for="goal-amount" class="form-label">Monthly Limit ($)</label>
+                                <input type="number" class="form-control form-control-sm" id="goal-amount" min="1" step="1" required>
+                            </div>
+                            <button type="submit" class="btn btn-sm btn-outline-primary w-100 mt-2">Set Goal</button>
+                        </form>
+
+                        <h6 class="mt-4 mb-3 text-muted">Current Goals (Against Filtered Period):</h6>
+                        <div id="goals-list" class="list-group">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
