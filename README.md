@@ -37,10 +37,10 @@ ExchangeRate API
 Copy code
 
 📁 Advanced-Budget-Tracker
-├── index.html          # Dashboard
-├── transactions.html   # Transactions & history
-├── style.css           # Custom styles
-├── script.js           # Core logic
+├── index.html         
+├── transactions.html    
+├── style.css           
+├── script.js          
 └── README.md
 🚀 Getting Started
 1️⃣ Clone the repository
