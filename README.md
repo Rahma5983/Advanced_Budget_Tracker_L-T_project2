@@ -43,39 +43,39 @@ Copy code
 ├── script.js          
 └── README.md
 ## 🚀 Getting Started<br><br>
-1️⃣ Clone the repository
-Copy code
-Bash
-git clone https://github.com/your-username/advanced-budget-tracker.git
-2️⃣ Open the app
-Simply open index.html in your browser
+1️⃣ Clone the repository<br><br>
+Copy code<br><br>
+Bash<br><br>
+git clone<br><br> https://github.com/your-username/advanced-budget-tracker.git<br><br>
+2️⃣ Open the app<br><br>
+Simply open index.html in your browser<br><br>
 (No server or installation required)
-🧠 How It Works
-All transactions are stored in LocalStorage
+🧠 How It Works<br><br>
+All transactions are stored in LocalStorage<br><br>
 Charts update dynamically based on:
-Selected month
-Currency
-Added/edited transactions
-Budget goals compare actual expenses vs limits
+Selected month<br><br>
+Currency<br><br>
+Added/edited transactions<br><br>
+Budget goals compare actual expenses vs limits<br><br>
 Exchange rates are fetched once per session
-📸 Screenshots (Optional)
+📸 Screenshots (Optional)<br><br>
 Add screenshots here for better presentation
-🔮 Future Improvements
-Dark mode toggle 🌙
-Export data to CSV 📄
-Category-wise monthly reports
-Authentication & cloud sync
+🔮 Future Improvements<br><br>
+Dark mode toggle 🌙<br><br>
+Export data to CSV 📄<br><br>
+Category-wise monthly reports<br><br>
+Authentication & cloud sync<br><br>
 React / SPA version
-🤝 Contributing
-Contributions are welcome!
-If you’d like to improve UI, add features, or fix bugs:
-Fork the repository
-Create a new branch
-Submit a pull request
-📜 License
+🤝 Contributing<br><br>
+Contributions are welcome!<br><br>
+If you’d like to improve UI, add features, or fix bugs:<br><br>
+Fork the repository<br><br>
+Create a new branch<br><br>
+Submit a pull request<br><br>
+📜 License<br><br>
 This project is open-source and available under the MIT License.
-🙌 Acknowledgements
-Bootstrap
-Chart.js
-ExchangeRate API
+🙌 Acknowledgements<br><br>
+Bootstrap<br><br>
+Chart.js<br><br>
+ExchangeRate API<br><br>
 ⭐ If you like this project, consider giving it a star!
