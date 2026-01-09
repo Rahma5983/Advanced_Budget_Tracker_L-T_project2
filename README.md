@@ -26,23 +26,23 @@ Base currency stored in USD for consistency
 Uses LocalStorage<br><br>
 Data remains intact even after page refresh
 ## 🛠️ Tech Stack
-HTML5
-CSS3
-JavaScript (ES6+)
-Bootstrap 5
-Chart.js
-LocalStorage API
+HTML5<br><br>
+CSS3<br><br>
+JavaScript (ES6+)<br><br>
+Bootstrap 5<br><br>
+Chart.js<br><br>
+LocalStorage API<br><br>
 ExchangeRate API
 ## 📂 Project Structure
 Copy code
 
-📁 Advanced-Budget-Tracker
+📁 Advanced-Budget-Tracker<br><br>
 ├── index.html         
 ├── transactions.html    
 ├── style.css           
 ├── script.js          
 └── README.md
-🚀 Getting Started
+## 🚀 Getting Started<br><br>
 1️⃣ Clone the repository
 Copy code
 Bash
