@@ -3,7 +3,7 @@ A modern, responsive budget tracking web application that helps users manage inc
 Built using HTML, CSS, JavaScript, Bootstrap, Chart.js, and LocalStorage.
 ## ✨ Features<br><br>
 ## 📊 Dashboard
-View current balance, total income, and total expenses<br>
+View current balance, total income, and total expenses<br><br>
 Filter data by month
 Switch between multiple currencies
 Visualize spending with:
