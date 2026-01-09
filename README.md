@@ -4,28 +4,28 @@ Built using HTML, CSS, JavaScript, Bootstrap, Chart.js, and LocalStorage.
 ## ✨ Features<br><br>
 ## 📊 Dashboard
 View current balance, total income, and total expenses<br><br>
-Filter data by month
-Switch between multiple currencies
+Filter data by month<br><br>
+Switch between multiple currencies<br><br>
 Visualize spending with:
 Category-wise doughnut chart
 6-month expense trend line chart
-💰 Transactions Management
-Add income and expense transactions
-Edit or delete existing transactions
-Categorize transactions (Food, Rent, Utilities, etc.)
+## 💰 Transactions Management<br><br>
+Add income and expense transactions<br><br>
+Edit or delete existing transactions<br><br>
+Categorize transactions (Food, Rent, Utilities, etc.)<br><br>
 Filter transaction history by month
-🎯 Budget Goals
-Set monthly spending limits per category
-Track progress with dynamic progress bars
+## 🎯 Budget Goals
+Set monthly spending limits per category<br><br>
+Track progress with dynamic progress bars<br><br>
 Visual indicators when nearing or exceeding limits
-🌍 Currency Support
-Supports multiple currencies (USD, EUR, GBP, JPY, CAD)
-Real-time exchange rates using ExchangeRate API
+## 🌍 Currency Support
+Supports multiple currencies (USD, EUR, GBP, JPY, CAD)<br><br>
+Real-time exchange rates using ExchangeRate API<br><br>
 Base currency stored in USD for consistency
-💾 Persistent Storage
-Uses LocalStorage
+## 💾 Persistent Storage
+Uses LocalStorage<br><br>
 Data remains intact even after page refresh
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 HTML5
 CSS3
 JavaScript (ES6+)
@@ -33,7 +33,7 @@ Bootstrap 5
 Chart.js
 LocalStorage API
 ExchangeRate API
-📂 Project Structure
+## 📂 Project Structure
 Copy code
 
 📁 Advanced-Budget-Tracker
