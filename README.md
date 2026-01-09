@@ -50,7 +50,7 @@ git clone<br><br> https://github.com/your-username/advanced-budget-tracker.git<b
 2️⃣ Open the app<br><br>
 Simply open index.html in your browser<br><br>
 (No server or installation required)
-🧠 How It Works<br><br>
+## 🧠 How It Works<br><br>
 All transactions are stored in LocalStorage<br><br>
 Charts update dynamically based on:
 Selected month<br><br>
@@ -58,24 +58,22 @@ Currency<br><br>
 Added/edited transactions<br><br>
 Budget goals compare actual expenses vs limits<br><br>
 Exchange rates are fetched once per session
-📸 Screenshots (Optional)<br><br>
-Add screenshots here for better presentation
-🔮 Future Improvements<br><br>
+## 🔮 Future Improvements<br><br>
 Dark mode toggle 🌙<br><br>
 Export data to CSV 📄<br><br>
 Category-wise monthly reports<br><br>
 Authentication & cloud sync<br><br>
 React / SPA version
-🤝 Contributing<br><br>
+## 🤝 Contributing<br><br>
 Contributions are welcome!<br><br>
 If you’d like to improve UI, add features, or fix bugs:<br><br>
 Fork the repository<br><br>
 Create a new branch<br><br>
 Submit a pull request<br><br>
-📜 License<br><br>
+## 📜 License<br><br>
 This project is open-source and available under the MIT License.
-🙌 Acknowledgements<br><br>
+## 🙌 Acknowledgements<br><br>
 Bootstrap<br><br>
 Chart.js<br><br>
 ExchangeRate API<br><br>
-⭐ If you like this project, consider giving it a star!
+## ⭐ If you like this project, consider giving it a star!
