@@ -1,4 +1,3 @@
-Here’s a clean, GitHub-ready, professional README.md version of your content — properly formatted in Markdown, polished language, and suitable for showcasing the project on your profile ⭐
 📈 Advanced Budget Tracker
 A modern, responsive client-side budget tracking web application that helps users manage income, expenses, monthly goals, and financial trends — no backend required.
 Built using HTML, CSS, JavaScript, Bootstrap, Chart.js, and LocalStorage.
