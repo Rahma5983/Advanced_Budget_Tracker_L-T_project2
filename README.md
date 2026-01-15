@@ -1,3 +1,4 @@
+
 📈 Advanced Budget Tracker
 A modern, responsive client-side budget tracking web application that helps users manage income, expenses, monthly goals, and financial trends — no backend required.
 Built using HTML, CSS, JavaScript, Bootstrap, Chart.js, and LocalStorage.
@@ -8,7 +9,8 @@ Filter financial data by month
 Switch between multiple currencies
 Visualize spending using:
 Category-wise doughnut chart
-6-month expense trend line chart
+6-month expense trend line char
+t
 💰 Transactions Management
 Add income and expense transactions
 Edit or delete existing transactions
