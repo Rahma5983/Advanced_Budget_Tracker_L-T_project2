@@ -82,5 +82,3 @@ If you want, I can also:
 ✨ Optimize it for GitHub SEO
 🧾 Make a shorter README version
 💼 Write a LinkedIn project post
-🖼️ Add badges & screenshots section
-Just tell me 👍
