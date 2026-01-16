@@ -11,7 +11,7 @@ Visualize spending using:
 Category-wise doughnut chart
 6-month expense trend line char
 t
-##b💰 Transactions Management
+## 💰 Transactions Management
 Add income and expense transactions
 Edit or delete existing transactions
 Categorize transactions (Food, Rent, Utilities, etc.)
