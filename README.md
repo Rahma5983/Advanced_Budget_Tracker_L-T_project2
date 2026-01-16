@@ -71,7 +71,7 @@ Contributions are welcome!
 Fork the repository
 Create a new branch
 Submit a pull request
-📜 License
+## 📜 License
 This project is open-source and available under the MIT License.
 🙌 Acknowledgements
 Bootstrap
