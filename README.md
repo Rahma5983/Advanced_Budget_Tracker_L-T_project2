@@ -77,7 +77,7 @@ This project is open-source and available under the MIT License.
 Bootstrap
 Chart.js
 ExchangeRate API
-⭐ If you like this project, consider giving it a star!
+## ⭐ If you like this project, consider giving it a star!
 If you want, I can also:
 ✨ Optimize it for GitHub SEO
 🧾 Make a shorter README version
