@@ -51,8 +51,8 @@ Bash
 git clone https://github.com/your-username/advanced-budget-tracker.git
 2️⃣ Open the app
 Simply open index.html in your browser
-✅ No server or installation required
-🧠 How It Works
+## ✅ No server or installation required
+## 🧠 How It Works
 All transactions are stored in LocalStorage
 Charts update dynamically based on:
 Selected month
