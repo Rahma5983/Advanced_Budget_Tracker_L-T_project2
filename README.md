@@ -1,6 +1,6 @@
 
 ## 📈 Advanced Budget Tracker
-A modern, responsive client-side budget tracking web application that helps users manage income, expenses, monthly goals, and financial trends — no backend required.
+A modern, responsive client-side budget tracking web application that helps users manage income, expenses, monthly goals, and financial trends — no backend required.<br><br>
 Built using HTML, CSS, JavaScript, Bootstrap, Chart.js, and LocalStorage.
 ## ✨ Features
 ## 📊 Dashboard
