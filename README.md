@@ -60,13 +60,13 @@ Selected currency
 Added or edited transactions
 Budget goals compare actual expenses vs set limits
 Exchange rates are fetched once per session
-🔮 Future Improvements
+## 🔮 Future Improvements
 Dark mode toggle 🌙
 Export data to CSV 📄
 Category-wise monthly reports
 Authentication & cloud sync
 React / SPA version
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome!
 Fork the repository
 Create a new branch
