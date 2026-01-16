@@ -73,7 +73,7 @@ Create a new branch
 Submit a pull request
 ## 📜 License
 This project is open-source and available under the MIT License.
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 Bootstrap
 Chart.js
 ExchangeRate API
