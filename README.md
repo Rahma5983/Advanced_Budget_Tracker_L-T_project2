@@ -17,9 +17,9 @@ t
 - Categorize transactions (Food, Rent, Utilities, etc.)<br><br>
 - Filter transaction history by month
 ## 🎯 Budget Goals
-Set monthly spending limits per category
-Track progress with dynamic progress bars
-Visual alerts when nearing or exceeding limits
+- Set monthly spending limits per category<br><br>
+- Track progress with dynamic progress bars<br><br>
+- Visual alerts when nearing or exceeding limits
 ## 🌍 Currency Support
 Supports USD, EUR, GBP, JPY, CAD
 Real-time exchange rates using ExchangeRate API
