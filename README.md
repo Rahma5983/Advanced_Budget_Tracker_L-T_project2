@@ -28,11 +28,11 @@ Base currency stored as USD for consistency
 Uses LocalStorage
 Data remains intact even after page refresh
 ## 🛠️ Tech Stack
-HTML5
-CSS3
-JavaScript (ES6+)
-Bootstrap 5
-Chart.js
+HTML5<br><br>
+CSS3<br><br>
+JavaScript (ES6+)<br><br>
+Bootstrap 5<br><br>
+Chart.js<br><br>
 LocalStorage API
 ExchangeRate API
 ## 📂 Project Structure
