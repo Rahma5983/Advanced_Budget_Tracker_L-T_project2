@@ -4,8 +4,8 @@ A modern, responsive client-side budget tracking web application that helps user
 Built using HTML, CSS, JavaScript, Bootstrap, Chart.js, and LocalStorage.
 ## ✨ Features
 ## 📊 Dashboard
-View current balance, total income, and total expenses
-Filter financial data by month
+- View current balance, total income, and total expenses<br><br>
+- Filter financial data by month
 Switch between multiple currencies
 Visualize spending using:
 Category-wise doughnut chart
