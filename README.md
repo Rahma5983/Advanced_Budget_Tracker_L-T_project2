@@ -11,7 +11,7 @@ Built using HTML, CSS, JavaScript, Bootstrap, Chart.js, and LocalStorage.
 Category-wise doughnut chart
 6-month expense trend line char
 t
-## 💰 Transactions Management
+## 💰 Transactions Management System 
 - Add income and expense transactions<br><br>
 - Edit or delete existing transactions<br><br>
 - Categorize transactions (Food, Rent, Utilities, etc.)<br><br>
