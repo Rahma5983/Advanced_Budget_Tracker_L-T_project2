@@ -6,7 +6,7 @@ Built using HTML, CSS, JavaScript, Bootstrap, Chart.js, and LocalStorage.
 ## 📊 Dashboard
 - View current balance, total income, and total expenses<br><br>
 - Filter financial data by month<br><br>
-- Switch between multiple currencies<br><br>
+- Switch between multiple currencies easily and Smoothly<br><br>
 - Visualize spending using:
 Category-wise doughnut chart
 6-month expense trend line char
