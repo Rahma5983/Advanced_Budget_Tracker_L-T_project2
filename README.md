@@ -12,7 +12,7 @@ Category-wise doughnut chart
 6-month expense trend line char
 t
 ## 💰 Transactions Management System 
-- Add income and expense transactions<br><br>
+- Add income and expense transactions as per your convenience<br><br>
 - Edit or delete existing transactions<br><br>
 - Categorize transactions (Food, Rent, Utilities, etc.)<br><br>
 - Filter transaction history by month
