@@ -5,7 +5,7 @@ Built using HTML, CSS, JavaScript, Bootstrap, Chart.js, and LocalStorage.
 ## ✨ Features
 ## 📊 Dashboard
 - View current balance, total income, and total expenses without any complications<br><br>
-- Filter financial data by month<br><br>
+- Filter financial data by month as per your convenience<br><br>
 - Switch between multiple currencies easily and Smoothly<br><br>
 - Visualize spending using:
 Category-wise doughnut chart
