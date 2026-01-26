@@ -16,7 +16,7 @@ t
 - Edit or delete existing transactions<br><br>
 - Categorize transactions (Food, Rent, Utilities, etc.)<br><br>
 - Filter transaction history by month
-## 🎯 Budget Goals
+## 🎯 Budget Goals and visio
 - Set monthly spending limits per category<br><br>
 - Track progress with dynamic progress bars<br><br>
 - Visual alerts when nearing or exceeding limits
